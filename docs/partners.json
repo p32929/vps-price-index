@@ -1,0 +1,30 @@
+{
+  "_README": "THE AFFILIATE SLOT LAYER. One file, one edit. To monetise a provider: put the tracked link in `url` and set `affiliate` to true. The site then shows the disclosure banner and marks that row. Nothing else in the repo changes. Links stay plain and untracked until a real programme is joined.",
+  "_disclosure": "Some links on this page are affiliate links. If you sign up through one, this site may earn a commission at no extra cost to you. It does not change the prices below — every price is pulled live from the provider's own public API, and the code that does it is open source.",
+  "providers": {
+    "Vultr": {
+      "url": "https://www.vultr.com/pricing/",
+      "affiliate": false,
+      "programme": "Vultr Affiliate (Impact). Free to join, pays CASH on a revenue share.",
+      "status": "not joined - needs a browser signup"
+    },
+    "Akamai (Linode)": {
+      "url": "https://www.linode.com/pricing/",
+      "affiliate": false,
+      "programme": "Akamai/Linode partner + referral. Referral side pays account CREDIT, not cash.",
+      "status": "not joined - needs a browser signup"
+    },
+    "Scaleway": {
+      "url": "https://www.scaleway.com/en/pricing/",
+      "affiliate": false,
+      "programme": "Scaleway referral. Pays CREDIT.",
+      "status": "not joined - needs a browser signup"
+    },
+    "AWS Lightsail": {
+      "url": "https://aws.amazon.com/lightsail/pricing/",
+      "affiliate": false,
+      "programme": "No consumer affiliate programme for Lightsail.",
+      "status": "unmonetisable - listed for comparison honesty, never a paid slot"
+    }
+  }
+}
