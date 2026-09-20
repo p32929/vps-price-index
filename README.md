@@ -60,7 +60,18 @@ Provider links live in one file, [`docs/partners.json`](docs/partners.json). Eac
 
 **Right now every link in this repo is a plain, untracked link to the provider's own pricing page — there are no affiliate links in it at all.** If that changes, the flag in `partners.json` flips to `true`, the link is marked `ad` in the table, it gets `rel="sponsored nofollow"`, and a disclosure banner appears at the top of the page. You will be able to see exactly which rows are monetised by reading one small JSON file, and `git log` will show you the day it happened.
 
-Affiliate links would never be able to change a price in the table, because no human hand touches the prices — they come from the APIs above.
+Affiliate links could never change a price in the table anyway, because no human hand touches the prices — they come from the APIs above.
+
+For what it is worth, here is the honest state of every programme behind the four providers, checked 2026-09-20:
+
+| Provider | Programme | Pays |
+|---|---|---|
+| Vultr | Affiliate programme, ~$10–100 one-time per qualified sale, 30-day cookie | **cash** |
+| Akamai (Linode) | Referral programme, "give $100 / get $25" — and you must spend $25 yourself to even activate the link | account credit only |
+| Scaleway | No self-serve affiliate programme exists; customers have an [open feature request](https://feature-request.scaleway.com/posts/129/affiliate-program) asking for one | nothing |
+| AWS Lightsail | No consumer affiliate programme | nothing |
+
+So three of the four providers here can never be monetised, and they are in the table anyway.
 
 ## Contributing
 

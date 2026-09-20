@@ -1,30 +1,38 @@
 {
-  "_README": "THE AFFILIATE SLOT LAYER. One file, one edit. To monetise a provider: put the tracked link in `url` and set `affiliate` to true. The site then shows the disclosure banner and marks that row. Nothing else in the repo changes. Links stay plain and untracked until a real programme is joined.",
-  "_disclosure": "Some links on this page are affiliate links. If you sign up through one, this site may earn a commission at no extra cost to you. It does not change the prices below — every price is pulled live from the provider's own public API, and the code that does it is open source.",
+  "_README": "THE AFFILIATE SLOT LAYER. One file, one edit. To monetise a provider: put the tracked link in `url` and set `affiliate` to true. The site then shows the disclosure banner, marks that row `ad` and adds rel=sponsored nofollow. Nothing else in the repo changes. Every link is plain and untracked until a real programme is actually joined.",
+  "_disclosure": "Some links on this page are affiliate links. If you sign up through one, this site may earn a commission at no extra cost to you. It cannot change the prices below - every price is pulled live from the provider's own public API by open-source code you can read and run.",
+  "_verified": "2026-09-20",
   "providers": {
     "Vultr": {
       "url": "https://www.vultr.com/pricing/",
       "affiliate": false,
-      "programme": "Vultr Affiliate (Impact). Free to join, pays CASH on a revenue share.",
-      "status": "not joined - needs a browser signup"
+      "programme": "Vultr Affiliate Program - CASH. One-time bounty, roughly $10-$100 per qualified sale depending on plan, 30-day cookie, paid monthly by PayPal, $100 minimum payout. Free to join, no minimum sales, but the application is reviewed.",
+      "pays": "cash",
+      "status": "NOT JOINED - application form requires a browser session",
+      "source": "https://www.vultr.com/company/affiliate-program/"
     },
     "Akamai (Linode)": {
       "url": "https://www.linode.com/pricing/",
       "affiliate": false,
-      "programme": "Akamai/Linode partner + referral. Referral side pays account CREDIT, not cash.",
-      "status": "not joined - needs a browser signup"
+      "programme": "Akamai Cloud Referral Program - CREDIT ONLY, not cash. Give $100 / get $25 in account credit once the referred account spends $25 and stays active 90 days. The referral link also has to be activated by spending $25 of your own money first.",
+      "pays": "account credit",
+      "status": "WILL NOT JOIN - pays no cash, and activating it would require spending money we do not have",
+      "source": "https://www.linode.com/referral-program/"
     },
     "Scaleway": {
       "url": "https://www.scaleway.com/en/pricing/",
       "affiliate": false,
-      "programme": "Scaleway referral. Pays CREDIT.",
-      "status": "not joined - needs a browser signup"
+      "programme": "No self-serve affiliate programme. Scaleway runs a reseller/technology partner track, not a public affiliate scheme - there is an open customer feature request asking them to create one.",
+      "pays": "none",
+      "status": "NOT MONETISABLE",
+      "source": "https://feature-request.scaleway.com/posts/129/affiliate-program"
     },
     "AWS Lightsail": {
       "url": "https://aws.amazon.com/lightsail/pricing/",
       "affiliate": false,
       "programme": "No consumer affiliate programme for Lightsail.",
-      "status": "unmonetisable - listed for comparison honesty, never a paid slot"
+      "pays": "none",
+      "status": "NOT MONETISABLE - listed for comparison honesty, will never be a paid slot"
     }
   }
 }
