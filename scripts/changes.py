@@ -27,6 +27,11 @@ def snapshots():
             ["git", "show", f"{sha}:{PLANS_PATH}"],
             cwd=os.path.join(HERE, ".."), text=True)
         out.append((sha, iso, json.loads(blob)))
+    # the freshly built file is not committed yet -- include it, or the page
+    # always shows yesterday's movement on the day it is published
+    live = json.load(open(os.path.join(DOCS, "plans.json")))
+    if not out or live["plans"] != out[-1][2]["plans"] or live.get("fx") != out[-1][2].get("fx"):
+        out.append(("", live["generated_utc"], live))
     return out
 
 
@@ -112,8 +117,9 @@ def render(d):
         rows.append(f'<section class="day"><h2>{esc(day["date"])}</h2>'
                     f'<p class="sub">{len(day["moves"])} price change(s), {len(day["added"])} new plan(s), '
                     f'{len(day["removed"])} withdrawn · {day["plan_count"]} plans tracked · '
-                    f'<a href="https://github.com/p32929/vps-price-index/commit/{esc(day["sha"])}">'
-                    f'snapshot {esc(day["sha"][:7])}</a></p><ul>{"".join(items)}</ul></section>')
+                    + (f'<a href="https://github.com/p32929/vps-price-index/commit/{esc(day["sha"])}">'
+                       f'snapshot {esc(day["sha"][:7])}</a>' if day["sha"] else 'published today')
+                    + f'</p><ul>{"".join(items)}</ul></section>')
     body = "".join(rows) or '<p class="sub">Nothing has moved since tracking began.</p>'
     return f"""<!doctype html>
 <html lang="en">

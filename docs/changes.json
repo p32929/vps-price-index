@@ -1,10 +1,31 @@
 {
- "generated_utc": "2026-09-22T19:14:24Z",
- "snapshots": 5,
+ "generated_utc": "2026-09-22T19:23:42Z",
+ "snapshots": 6,
  "first_snapshot": "2026-09-20",
  "latest_snapshot": "2026-09-22",
- "plan_count": 120,
+ "plan_count": 121,
  "days": [
+  {
+   "moves": [],
+   "added": [
+    {
+     "provider": "Scaleway",
+     "plan": "MEMORY3-X12C-96G",
+     "price": 496.25,
+     "currency": "EUR"
+    }
+   ],
+   "removed": [],
+   "fx": {
+    "from": 1.149,
+    "to": 1.1463,
+    "date": "2026-09-22"
+   },
+   "date": "2026-09-22",
+   "utc": "2026-09-22T19:14:24Z",
+   "sha": "7e47c06cb1aaf5cecc83ec44278da5689337b918",
+   "plan_count": 121
+  },
   {
    "moves": [],
    "added": [],
