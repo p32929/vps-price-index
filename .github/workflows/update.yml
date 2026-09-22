@@ -10,15 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # changes.py diffs plans.json against its own history
       - name: Fetch live prices from every provider's public API
         run: python3 scripts/build.py
       - name: Self-check the dataset before publishing it
         run: python3 scripts/test_build.py
+      - name: Rebuild the dated price-change record
+        run: python3 scripts/changes.py
       - name: Commit if anything moved
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/plans.json
+          git add docs/plans.json docs/changes.json docs/changes.html
           git diff --cached --quiet && echo "no price changes" && exit 0
           git commit -m "chore: refresh prices $(date -u +%Y-%m-%d)"
           git push

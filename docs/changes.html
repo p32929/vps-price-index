@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VPS price changes — a dated record of who raised or cut prices</title>
+<meta name="description" content="A dated record of every VPS price change: who raised prices, who cut them, which plans appeared and which were withdrawn. Rebuilt daily from each provider's own public pricing API.">
+<link rel="canonical" href="https://p32929.github.io/vps-price-index/changes.html">
+<style>
+:root{--bg:#0d1117;--panel:#161b22;--line:#30363d;--fg:#e6edf3;--dim:#8b949e;--acc:#3fb950;--acc2:#58a6ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--acc2)}
+.wrap{max-width:900px;margin:0 auto;padding:28px 18px 64px}
+h1{font-size:27px;margin:0 0 6px;letter-spacing:-.4px}
+h2{font-size:17px;margin:0 0 4px;font-variant-numeric:tabular-nums}
+.sub{color:var(--dim);margin:0 0 18px;font-size:14px}
+.badge{display:inline-block;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:3px 11px;font-size:12px;color:var(--dim);margin:0 6px 14px 0}
+.badge b{color:var(--acc)}
+.day{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin:0 0 14px}
+.day .sub{margin:0 0 10px;font-size:12.5px}
+ul{margin:0;padding-left:18px}
+li{margin:3px 0;font-size:14px}
+.prov{color:var(--dim);font-size:12.5px}
+.plan{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px}
+.up{color:#f85149;font-weight:600}
+.down{color:var(--acc);font-weight:600}
+.new{color:var(--acc);font-size:10px;border:1px solid var(--acc);border-radius:4px;padding:0 4px}
+.gone{color:#d29922;font-size:10px;border:1px solid #d29922;border-radius:4px;padding:0 4px}
+.fxrow{color:var(--dim)}
+footer{margin-top:26px;color:var(--dim);font-size:12.5px;line-height:1.8}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>VPS price changes</h1>
+<p class="sub">Who raised prices, who cut them, which plans appeared and which quietly disappeared — dated, and taken from
+a daily snapshot of each provider's <b>own public pricing API</b>. <a href="./">Back to the price index →</a></p>
+<span class="badge">tracking since <b>2026-09-20</b></span>
+<span class="badge"><b>5</b> daily snapshots</span>
+<span class="badge"><b>120</b> plans watched</span>
+<span class="badge">latest <b>2026-09-22</b></span>
+<section class="day"><h2>2026-09-22</h2><p class="sub">0 price change(s), 0 new plan(s), 0 withdrawn · 120 plans tracked · <a href="https://github.com/p32929/vps-price-index/commit/344c67a3d0bb4d91e164767ba1c1bcb628a0fd61">snapshot 344c67a</a></p><ul><li class="fxrow">EUR/USD 1.146 → 1.149 (rate dated 2026-09-21) — every euro-priced plan's $ column moved with it. <b>No provider changed its own price.</b></li></ul></section>
+<footer>
+Only a change in the provider's <b>own</b> price counts as a price change here. If the dollar column moved because the
+euro moved, it is listed as an FX line and labelled as one — a comparison table that calls that a "price cut" is lying to you.<br>
+Rebuilt daily by GitHub Actions from <a href="https://github.com/p32929/vps-price-index">the open-source build script</a>;
+every entry links to the exact commit it was computed from, so you can check it.<br>
+Generated 2026-09-22T19:13:49Z.
+</footer>
+</div>
+</body>
+</html>

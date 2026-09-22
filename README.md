@@ -4,6 +4,7 @@
 
 👉 **[p32929.github.io/vps-price-index](https://p32929.github.io/vps-price-index/)** — sortable, filterable, 120 plans
 📦 **[`docs/plans.json`](docs/plans.json)** — the raw dataset, CC0, use it in your own tooling
+📉 **[Price changes](https://p32929.github.io/vps-price-index/changes.html)** — dated record of who raised or cut prices, rebuilt daily
 
 ---
 
