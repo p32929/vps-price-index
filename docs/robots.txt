@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://p32929.github.io/vps-price-index/sitemap.xml
