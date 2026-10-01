@@ -1,9 +1,9 @@
 {
- "generated_utc": "2026-09-30T11:10:33Z",
+ "generated_utc": "2026-10-01T11:37:31Z",
  "plan_count": 121,
  "fx": {
   "EUR_USD": 1.1355,
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "source": "https://api.frankfurter.app/latest?from=EUR&to=USD"
  },
  "sources": {
