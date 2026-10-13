@@ -1,10 +1,24 @@
 {
- "generated_utc": "2026-10-12T13:10:25Z",
- "snapshots": 26,
+ "generated_utc": "2026-10-13T12:43:01Z",
+ "snapshots": 28,
  "first_snapshot": "2026-09-20",
- "latest_snapshot": "2026-10-11",
+ "latest_snapshot": "2026-10-13",
  "plan_count": 121,
  "days": [
+  {
+   "moves": [],
+   "added": [],
+   "removed": [],
+   "fx": {
+    "from": 1.1206,
+    "to": 1.1181,
+    "date": "2026-10-12"
+   },
+   "date": "2026-10-13",
+   "utc": "2026-10-13T12:43:01Z",
+   "sha": "",
+   "plan_count": 121
+  },
   {
    "moves": [],
    "added": [],
