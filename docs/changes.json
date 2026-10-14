@@ -1,10 +1,24 @@
 {
- "generated_utc": "2026-10-13T12:43:01Z",
- "snapshots": 28,
+ "generated_utc": "2026-10-14T10:13:34Z",
+ "snapshots": 29,
  "first_snapshot": "2026-09-20",
- "latest_snapshot": "2026-10-13",
+ "latest_snapshot": "2026-10-14",
  "plan_count": 121,
  "days": [
+  {
+   "moves": [],
+   "added": [],
+   "removed": [],
+   "fx": {
+    "from": 1.1181,
+    "to": 1.1188,
+    "date": "2026-10-13"
+   },
+   "date": "2026-10-14",
+   "utc": "2026-10-14T10:13:34Z",
+   "sha": "",
+   "plan_count": 121
+  },
   {
    "moves": [],
    "added": [],
@@ -16,7 +30,7 @@
    },
    "date": "2026-10-13",
    "utc": "2026-10-13T12:43:01Z",
-   "sha": "",
+   "sha": "a9f59260c63b094c15548458cd54912ddefed466",
    "plan_count": 121
   },
   {
