@@ -1,9 +1,9 @@
 {
- "generated_utc": "2026-10-26T11:07:39Z",
+ "generated_utc": "2026-10-27T10:34:42Z",
  "plan_count": 121,
  "fx": {
-  "EUR_USD": 1.1193,
-  "date": "2026-10-23",
+  "EUR_USD": 1.1188,
+  "date": "2026-10-26",
   "source": "https://api.frankfurter.app/latest?from=EUR&to=USD"
  },
  "sources": {
@@ -180,8 +180,8 @@
    "price": 14.74,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 16.5,
-   "usd_per_gb_ram": 3.85
+   "usd": 16.49,
+   "usd_per_gb_ram": 3.84
   },
   {
    "provider": "Scaleway",
@@ -193,7 +193,7 @@
    "price": 16.79,
    "currency": "EUR",
    "note": "arm64",
-   "usd": 18.79,
+   "usd": 18.78,
    "usd_per_gb_ram": 4.38
   },
   {
@@ -245,7 +245,7 @@
    "price": 25.18,
    "currency": "EUR",
    "note": "arm64",
-   "usd": 28.18,
+   "usd": 28.17,
    "usd_per_gb_ram": 3.28
   },
   {
@@ -258,8 +258,8 @@
    "price": 28.8,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 32.24,
-   "usd_per_gb_ram": 7.52
+   "usd": 32.22,
+   "usd_per_gb_ram": 7.51
   },
   {
    "provider": "Scaleway",
@@ -271,7 +271,7 @@
    "price": 31.27,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 35.0,
+   "usd": 34.98,
    "usd_per_gb_ram": 4.07
   },
   {
@@ -323,7 +323,7 @@
    "price": 37.74,
    "currency": "EUR",
    "note": "arm64",
-   "usd": 42.24,
+   "usd": 42.22,
    "usd_per_gb_ram": 4.92
   },
   {
@@ -375,7 +375,7 @@
    "price": 42.7,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 47.79,
+   "usd": 47.77,
    "usd_per_gb_ram": 11.14
   },
   {
@@ -401,7 +401,7 @@
    "price": 43.23,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 48.39,
+   "usd": 48.37,
    "usd_per_gb_ram": 5.63
   },
   {
@@ -414,7 +414,7 @@
    "price": 47.51,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 53.18,
+   "usd": 53.15,
    "usd_per_gb_ram": 4.13
   },
   {
@@ -427,7 +427,7 @@
    "price": 50.3,
    "currency": "EUR",
    "note": "arm64",
-   "usd": 56.3,
+   "usd": 56.28,
    "usd_per_gb_ram": 3.28
   },
   {
@@ -453,8 +453,8 @@
    "price": 57.6,
    "currency": "EUR",
    "note": "arm64",
-   "usd": 64.47,
-   "usd_per_gb_ram": 5.01
+   "usd": 64.44,
+   "usd_per_gb_ram": 5.0
   },
   {
    "provider": "Scaleway",
@@ -466,7 +466,7 @@
    "price": 57.67,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 64.55,
+   "usd": 64.52,
    "usd_per_gb_ram": 7.51
   },
   {
@@ -505,7 +505,7 @@
    "price": 65.92,
    "currency": "EUR",
    "note": "arm64",
-   "usd": 73.78,
+   "usd": 73.75,
    "usd_per_gb_ram": 2.86
   },
   {
@@ -518,7 +518,7 @@
    "price": 67.76,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 75.84,
+   "usd": 75.81,
    "usd_per_gb_ram": 4.41
   },
   {
@@ -570,7 +570,7 @@
    "price": 75.48,
    "currency": "EUR",
    "note": "arm64",
-   "usd": 84.48,
+   "usd": 84.45,
    "usd_per_gb_ram": 4.92
   },
   {
@@ -609,8 +609,8 @@
    "price": 85.41,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 95.6,
-   "usd_per_gb_ram": 11.13
+   "usd": 95.56,
+   "usd_per_gb_ram": 11.12
   },
   {
    "provider": "Akamai (Linode)",
@@ -635,7 +635,7 @@
    "price": 86.47,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 96.79,
+   "usd": 96.74,
    "usd_per_gb_ram": 5.63
   },
   {
@@ -648,7 +648,7 @@
    "price": 98.99,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 110.8,
+   "usd": 110.75,
    "usd_per_gb_ram": 8.6
   },
   {
@@ -661,7 +661,7 @@
    "price": 100.59,
    "currency": "EUR",
    "note": "arm64",
-   "usd": 112.59,
+   "usd": 112.54,
    "usd_per_gb_ram": 3.28
   },
   {
@@ -687,7 +687,7 @@
    "price": 113.37,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 126.9,
+   "usd": 126.84,
    "usd_per_gb_ram": 4.92
   },
   {
@@ -700,7 +700,7 @@
    "price": 115.19,
    "currency": "EUR",
    "note": "arm64",
-   "usd": 128.93,
+   "usd": 128.87,
    "usd_per_gb_ram": 5.0
   },
   {
@@ -726,8 +726,8 @@
    "price": 128.16,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 143.45,
-   "usd_per_gb_ram": 11.14
+   "usd": 143.39,
+   "usd_per_gb_ram": 11.13
   },
   {
    "provider": "Akamai (Linode)",
@@ -752,7 +752,7 @@
    "price": 129.7,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 145.17,
+   "usd": 145.11,
    "usd_per_gb_ram": 8.45
   },
   {
@@ -765,7 +765,7 @@
    "price": 131.91,
    "currency": "EUR",
    "note": "arm64",
-   "usd": 147.65,
+   "usd": 147.58,
    "usd_per_gb_ram": 2.86
   },
   {
@@ -778,8 +778,8 @@
    "price": 139.24,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 155.85,
-   "usd_per_gb_ram": 4.54
+   "usd": 155.78,
+   "usd_per_gb_ram": 4.53
   },
   {
    "provider": "Vultr",
@@ -830,8 +830,8 @@
    "price": 150.89,
    "currency": "EUR",
    "note": "arm64",
-   "usd": 168.89,
-   "usd_per_gb_ram": 4.92
+   "usd": 168.82,
+   "usd_per_gb_ram": 4.91
   },
   {
    "provider": "Akamai (Linode)",
@@ -869,7 +869,7 @@
    "price": 170.89,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 191.28,
+   "usd": 191.19,
    "usd_per_gb_ram": 11.13
   },
   {
@@ -895,7 +895,7 @@
    "price": 172.86,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 193.48,
+   "usd": 193.4,
    "usd_per_gb_ram": 5.63
   },
   {
@@ -908,8 +908,8 @@
    "price": 197.9,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 221.51,
-   "usd_per_gb_ram": 8.6
+   "usd": 221.41,
+   "usd_per_gb_ram": 8.59
   },
   {
    "provider": "Scaleway",
@@ -921,7 +921,7 @@
    "price": 201.19,
    "currency": "EUR",
    "note": "arm64",
-   "usd": 225.19,
+   "usd": 225.09,
    "usd_per_gb_ram": 3.28
   },
   {
@@ -947,7 +947,7 @@
    "price": 226.59,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 253.62,
+   "usd": 253.51,
    "usd_per_gb_ram": 4.92
   },
   {
@@ -960,7 +960,7 @@
    "price": 256.32,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 286.9,
+   "usd": 286.77,
    "usd_per_gb_ram": 11.13
   },
   {
@@ -999,8 +999,8 @@
    "price": 259.33,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 290.27,
-   "usd_per_gb_ram": 8.45
+   "usd": 290.14,
+   "usd_per_gb_ram": 8.44
   },
   {
    "provider": "Scaleway",
@@ -1012,7 +1012,7 @@
    "price": 279.97,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 313.37,
+   "usd": 313.23,
    "usd_per_gb_ram": 4.56
   },
   {
@@ -1090,7 +1090,7 @@
    "price": 341.79,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 382.57,
+   "usd": 382.39,
    "usd_per_gb_ram": 11.13
   },
   {
@@ -1116,8 +1116,8 @@
    "price": 345.5,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 386.72,
-   "usd_per_gb_ram": 5.63
+   "usd": 386.55,
+   "usd_per_gb_ram": 5.62
   },
   {
    "provider": "Akamai (Linode)",
@@ -1142,7 +1142,7 @@
    "price": 496.25,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 555.45,
+   "usd": 555.2,
    "usd_per_gb_ram": 5.39
   },
   {
@@ -1168,8 +1168,8 @@
    "price": 512.32,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 573.44,
-   "usd_per_gb_ram": 11.13
+   "usd": 573.18,
+   "usd_per_gb_ram": 11.12
   },
   {
    "provider": "Akamai (Linode)",
@@ -1207,7 +1207,7 @@
    "price": 565.15,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 632.57,
+   "usd": 632.29,
    "usd_per_gb_ram": 4.6
   },
   {
@@ -1259,7 +1259,7 @@
    "price": 683.5,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 765.04,
+   "usd": 764.7,
    "usd_per_gb_ram": 11.13
   },
   {
@@ -1376,7 +1376,7 @@
    "price": 1019.81,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 1141.47,
+   "usd": 1140.96,
    "usd_per_gb_ram": 11.07
   },
   {
@@ -1441,8 +1441,8 @@
    "price": 1221.89,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 1367.66,
-   "usd_per_gb_ram": 4.98
+   "usd": 1367.05,
+   "usd_per_gb_ram": 4.97
   },
   {
    "provider": "Akamai (Linode)",
@@ -1480,7 +1480,7 @@
    "price": 1367.0,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 1530.08,
+   "usd": 1529.4,
    "usd_per_gb_ram": 11.13
   },
   {
@@ -1532,7 +1532,7 @@
    "price": 2039.62,
    "currency": "EUR",
    "note": "x86_64",
-   "usd": 2282.95,
+   "usd": 2281.93,
    "usd_per_gb_ram": 11.07
   },
   {
