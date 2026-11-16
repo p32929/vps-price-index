@@ -2,9 +2,9 @@
 
 **Live cloud server prices, pulled from the providers' own public APIs. Nothing is hand-typed.**
 
-👉 **[p32929.github.io/vps-price-index](https://p32929.github.io/vps-price-index/)** — sortable, filterable, 120 plans
-📦 **[`docs/plans.json`](docs/plans.json)** — the raw dataset, CC0, use it in your own tooling
-📉 **[Price changes](https://p32929.github.io/vps-price-index/changes.html)** — dated record of who raised or cut prices, rebuilt daily
+1. **[p32929.github.io/vps-price-index](https://p32929.github.io/vps-price-index/)** — sortable, filterable, 120 plans
+2. **[`docs/plans.json`](docs/plans.json)** — the raw dataset, CC0, use it in your own tooling
+3. **[Price changes](https://p32929.github.io/vps-price-index/changes.html)** — dated record of who raised or cut prices, rebuilt daily
 
 ---
 
@@ -31,11 +31,11 @@ All five are public. None need a key. That is the whole point — you do not hav
 
 ## The rules this thing holds itself to
 
-- **No hand-typed prices.** If it is in the table, a provider's API said it, today.
-- **A broken source is dropped, never served stale.** If a provider's endpoint fails or its shape changes, that provider disappears from the build and the failure is recorded in `errors` inside `plans.json`. A silently wrong number is worse than a missing one.
-- **The FX rate is published with its date.** Scaleway quotes EUR. The `$` column is a conversion, not a price, so the rate and the day it was taken are printed on the page and stored in the JSON. Native price is shown next to it.
-- **The conventions are stated, not hidden.** AWS publishes Lightsail hourly; the monthly figure is hourly × 730, which is AWS's own convention, Linux, us-east-1. Linode/Vultr/Scaleway publish monthly directly.
-- **Providers with no affiliate programme are listed anyway.** AWS Lightsail cannot be monetised here and is in the table regardless, because a comparison that quietly omits the options that do not pay is not a comparison.
+1. **No hand-typed prices.** If it is in the table, a provider's API said it, today.
+2. **A broken source is dropped, never served stale.** If a provider's endpoint fails or its shape changes, that provider disappears from the build and the failure is recorded in `errors` inside `plans.json`. A silently wrong number is worse than a missing one.
+3. **The FX rate is published with its date.** Scaleway quotes EUR. The `$` column is a conversion, not a price, so the rate and the day it was taken are printed on the page and stored in the JSON. Native price is shown next to it.
+4. **The conventions are stated, not hidden.** AWS publishes Lightsail hourly; the monthly figure is hourly × 730, which is AWS's own convention, Linux, us-east-1. Linode/Vultr/Scaleway publish monthly directly.
+5. **Providers with no affiliate programme are listed anyway.** AWS Lightsail cannot be monetised here and is in the table regardless, because a comparison that quietly omits the options that do not pay is not a comparison.
 
 ## `plans.json`
 
@@ -80,32 +80,18 @@ The useful contribution is **another provider with a public, unauthenticated pri
 
 Known non-starters, so you do not waste an evening:
 
-- **Hetzner** — `api.hetzner.cloud/v1/pricing` returns `401 token is required`. Excellent prices, no open catalogue.
-- **DigitalOcean** — `api.digitalocean.com/v2/sizes` needs a bearer token.
-- **OVHcloud** — `api.ovh.com/v1/order/catalog/public/vps?ovhSubsidiary=GB` is genuinely public (197 plans) but specs are not machine-readable: some plans encode vCPU/RAM in the `planCode`, others hide them in a `blobs.commercial` marketing feature list and some have `blobs: null`. Prices are in `pricings[].price` at 1e8 per unit. Doable, but it needs a careful parser, not a quick one — PRs very welcome.
+1. **Hetzner** — `api.hetzner.cloud/v1/pricing` returns `401 token is required`. Excellent prices, no open catalogue.
+2. **DigitalOcean** — `api.digitalocean.com/v2/sizes` needs a bearer token.
+3. **OVHcloud** — `api.ovh.com/v1/order/catalog/public/vps?ovhSubsidiary=GB` is genuinely public (197 plans) but specs are not machine-readable: some plans encode vCPU/RAM in the `planCode`, others hide them in a `blobs.commercial` marketing feature list and some have `blobs: null`. Prices are in `pricings[].price` at 1e8 per unit. Doable, but it needs a careful parser, not a quick one — PRs very welcome.
 
 ## Contributing
 
-Contributions are warmly welcomed and greatly appreciated! Whether it's a bug fix, new feature, or improvement, your input helps make this project better for everyone.
-
-Before submitting a pull request, please:
-
-1. Create an issue describing the feature or bug fix you'd like to work on
-2. Wait for discussion and approval to ensure alignment with project goals
-3. Fork the repository and create your feature branch
-4. Submit your pull request with a clear description of changes
-
-This approach helps avoid duplicate efforts and ensures smooth collaboration. Thank you for considering contributing!
+Contributions are very welcome, thank you! Before you start on a pull request, please open an issue and tell me what you would like to add or change. That way we can agree on it first, and your time is not wasted on something that might not fit. Thanks for helping make VPS Price Index better.
 
 ## Share
 
-Sharing this repository with your friends is just one click away from here
+<a href="https://p32929.github.io/share/?repo=vps-price-index"><img src="https://p32929.github.io/readme/share.svg" alt="Share this with your friends in just a click" width="420"></a>
 
-[![facebook](https://user-images.githubusercontent.com/6418354/179013321-ac1d1452-0689-493f-9066-940cf2302b6e.png)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/p32929/vps-price-index/)
-[![twitter](https://user-images.githubusercontent.com/6418354/179013351-7d8d6d1c-4ce2-46ab-bef8-4c4765a1b888.png)](https://twitter.com/intent/tweet?url=https://github.com/p32929/vps-price-index/)
-[![tumblr](https://user-images.githubusercontent.com/6418354/179013343-3111f55a-3b90-40c7-8487-9777348672b0.png)](https://www.tumblr.com/share?v=3&u=https://github.com/p32929/vps-price-index/)
-[![pocket](https://user-images.githubusercontent.com/6418354/179013334-b095c45f-becf-49f4-9ee1-5a731a9b1f85.png)](https://getpocket.com/save?url=https://github.com/p32929/vps-price-index/)
-[![pinterest](https://user-images.githubusercontent.com/6418354/179013331-44cd9206-11b1-4b65-becb-5863b61c828f.png)](https://pinterest.com/pin/create/button/?url=https://github.com/p32929/vps-price-index/)
-[![reddit](https://user-images.githubusercontent.com/6418354/179013338-7416ae3f-73ba-4522-86e1-1374d7082d22.png)](https://www.reddit.com/submit?url=https://github.com/p32929/vps-price-index/)
-[![linkedin](https://user-images.githubusercontent.com/6418354/179013327-ca7b7102-1da8-4b1c-858f-1a6e5f21bd70.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/p32929/vps-price-index/)
-[![whatsapp](https://user-images.githubusercontent.com/6418354/179013353-f477fa0b-3e6f-4138-a357-c9991b23ff88.png)](https://api.whatsapp.com/send?text=https://github.com/p32929/vps-price-index/)
+## Support
+
+<a href="https://p32929.github.io/support/"><img src="https://p32929.github.io/readme/support.svg" alt="If you like my works and want to support me, feel free to support" width="420"></a>
